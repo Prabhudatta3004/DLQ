@@ -1,39 +1,4 @@
 
-```markdown
-# DLQ Service
-
-A robust Dead Letter Queue (DLQ) service built with Go, using PostgreSQL for persistent storage and Gin Gonic for the web framework. This service allows you to add, retrieve, delete, and clear messages in a dead letter queue through a RESTful API.
-
-
-
-## Project Structure
-
-```
-dlq_service/
-├── cmd/
-│   └── server/
-│       └── main.go
-├── config/
-│   └── config.go
-├── controllers/
-│   └── dlq_controller.go
-├── models/
-│   └── message.go
-├── repository/
-│   └── message_repository.go
-├── routers/
-│   └── routers.go
-├── services/
-│   └── dlq_service.go
-├── utils/
-│   ├── logger.go
-│   └── response.go
-├── .env.example
-├── go.mod
-└── go.sum
-```
-
----
 
 ## Installation and Setup
 
